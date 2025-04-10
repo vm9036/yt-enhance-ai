@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="border-b border-gray-300 py-4 px-4 overflow-hidden">
+        <div class="container mx-auto flex items-center justify-between relative">
+            <img src="assets/images/header-left-dot.svg" alt="dot pattern" width="88"
+                class="absolute right-full -top-4 mr-12">
+            <img src="assets/images/header-right-shapes.svg.svg" alt="shapes" width="141"
+                class="absolute left-full -top-4 ml-12">
+
+            <a href="/">
+                <img src="assets/images/logo.svg" alt="Enhance logo" width="291">
+            </a>
+
+            <nav>
+                <ul class="flex items-center">
+                    <li>
+                        <a href="#"
+                            class="px-4 py-2 transition hover:bg-gray-200 rounded-md active bg-gradient-to-r-border-t-2 border-green-400 bg-gradient-to-br from-purple-500 to-indigo-400 hover:from-green-600 hover:via-blue-700 hover:to-purple-700 text-white rounded-md flex md:inline-flex font-medium text-lg cursor-pointer hover:shadow-lg transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                            </svg>
+                            Free Signup</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero py-4 py-8 md:py-24 relative">
+
+        <img src="assets/images/hero-top-right-dot.svg" alt="shapes" width="118" class="absolute right-8 top-8">
+
+        <div class="container mx-auto items-center justify-between relative text-center">
+            <h1
+                class="text-4xl md:text-7xl relative text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-purple-400 block text-center">
+                Use <span class="font-bold">AI</span> to solve, Write & work</h1>
+            <p class="md:text-2xl text-gray-500 text-center max-w-3xl mx-auto mt-4">Enhance everything you do by using
+                the latest from OpenAI to olve problems, write solution and make life easier.</p>
+            <a href="#"
+                class="px-4 py-3 md:px-10 md:py-5 md:text-2xl transition hover:bg-gray-200 rounded-md active bg-gradient-to-r border-t-2 border-green-400 bg-gradient-to-br from-green-500 to-blue-600 hover:from-green-600 hover:via-blue-700 hover:to-purple-700 text-white rounded-md flex md:inline-flex font-medium text-2xl cursor-pointer hover:shadow-lg transition mx-auto inline-flex align- mt-8">Get
+                Started
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 ml-4" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+    </section>
+    <section class="relative py-4">
+        <div class="container mx-auto">
+            <div class="rounded-2xl shadow-2xl border flex divide-y">
+                <div class="p-8 flex-1">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mr-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                        </svg>
+                        <h2 class="text-4xl font-medium">
+                            Explain Code
+                        </h2>
+                    </div>
+                    <p class="text-gray-600 text-lg mt-2">
+                        Explain some code based on the syntax provided
+                    </p>
+                    <h3 class="mt-6 text-lg font-bold">
+                        Paste your code below:
+                    </h3>
+                    <div class="bg-gray-100 p-4 rounded-md mt-2 h-44 text-xl">
+                        function Helloworld(text){
+                        echo text || "Hello World";
+                        }
+                    </div>
+                    <a href="#"
+                        class="mt-8 px-4 py-2 transition hover:bg-gray-200 rounded-md active bg-gradient-to-r-border-t-2 border-green-400 bg-gradient-to-br from-purple-500 to-indigo-400 hover:from-green-600 hover:via-blue-700 hover:to-purple-700 text-white rounded-md flex md:inline-flex font-medium text-lg cursor-pointer hover:shadow-lg transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                        Enhance with AI</a>
+                </div>
+                <div class="p-8 flex-1">
+                    <div class="flex items-center">
+                        <div
+                            class="inline-flex flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-gray-800 sm:mx-0 sm:h-10 sm:w-10 bg-gray-200 text-white mr-4">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </div>
+                        <h2 class="text-4xl font-medium ml-4">
+                            What does this code do?
+                        </h2>
+                    </div>
+                    <p class="text-gray-600 text-lg mt-2">
+                        The Following code does:
+                    </p>
+                    <div class="divide-y mt-4">
+                        <div class="flex items-center py-3">
+                            <div
+                                class="inline-flex flex-shrink-0 flex items-center justify-center h-8 w-8 rounded-full bg-gray-200 sm:mx-0 ">
+    
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </div>
+                            <div class="text-xl ml-4">
+                                The code above is a fuction definition.
+                            </div>
+                        </div>
+                        <div class="flex items-center py-3">
+                            <div
+                                class="inline-flex flex-shrink-0 flex items-center justify-center h-8 w-8 rounded-full bg-gray-200 sm:mx-0 ">
+    
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </div>
+                            <div class="text-xl ml-4">
+                                It defines a new function called `HelloWorld` that takes a single argument called `text`
+                            </div>
+                        </div>
+                        <div class="flex items-center py-3">
+                            <div
+                                class="inline-flex flex-shrink-0 flex items-center justify-center h-8 w-8 rounded-full bg-gray-200 sm:mx-0 ">
+    
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </div>
+                            <div class="text-xl ml-4">
+                                The body of the function is a single line of code that prints out the value of `text` if it is defined, or `Hello World` if it is not defined.
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#"
+                        class="mt-8 px-6 py-3 transition bg-gray-100 hover:bg-gray-200 rounded-md active bg-gradient-to-r rounded-md flex md:inline-flex font-medium text-lg cursor-pointer transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                        Copy Code</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
